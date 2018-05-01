@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/Maru_Jumper.unity
-  isLoaded: 1
-  isActive: 1
