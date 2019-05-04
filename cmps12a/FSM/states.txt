@@ -1,0 +1,33 @@
+
+31
+0  29  none  30  none
+1  0  char:z  0  char:q
+2  0  char:'  0  char:j
+3  0  char:x  1  none
+4  2  none  3  none
+5  0  char:"  4  none
+6  0  char:k  0  char:v
+7  5  none  0  char:b
+8  6  none  0  char:p
+9  0  char:y  0  char:g
+10  0  char:f  0  char:w
+11  0  char:m  7  none
+12  0  char:u  0  char:c
+13  0  newline  0  char:,
+14  0  char:.  8  none
+15  9  none  0  char:l
+16  0  char:d  10  none
+17  11  none  12  none
+18  13  none  0  char:r
+19  0  char:h  0  char:s
+20  0  char:n  0  char:i
+21  14  none  0  char:o
+22  15  none  0  char:a
+23  16  none  0  char:t
+24  0  space  17  none
+25  18  none  19  none
+26  0  char:e  20  none
+27  21  none  22  none
+28  23  none  24  none
+29  25  none  26  none
+30  27  none  28  none
