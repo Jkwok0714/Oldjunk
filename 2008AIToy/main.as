@@ -1,9 +1,7 @@
-// 2008 project ai battle toy
-
 stop();
 function initArray() {
-	charNamesAry = new Array('None', 'Nero', 'Charon', 'Cadfael', 'Iphigenia', 'Yun', 'Blanche', 'Lina', 'Senka', 'Quinton', 'Yong', 'Cillian', 'Sequoia', 'Belle', 'Diamanto', 'Conleth', 'Tsukiko', 'Nereida', 'Gilbert', 'Brutus', 'Qing', 'Daisuke', 'Aamina', 'Deror', 'Grigol', 'Bertram', 'Corinna', 'Elette', 'Khazo', 'Lyall', 'Everard', 'Eloise', 'Dmitriy', 'Alfhild', 'Farran', 'Vasil', 'Hazae', 'Khazak', 'Kasumi', 'Shell', 'Shell 2', 'Svarog', 'Ulrich', 'Nayeli', 'Zan Jia', 'Larien', 'Tyr', 'Shichirou', 'Iva', 'Saphira', 'Varfolomei', 'Miroslav', 'Aithne', 'Buenasdias', 'Echbert', 'Klytie', 'Hjalmar', 'Fleurette', 'Medino', 'Ceiva', 'Siofra', 'Ludolf', 'Xolani', 'Argyris', 'Jin Shui', 'Kong Sang', 'Vulgaris', 'Maximilian', 'Finley', 'Hallbjorn', 'Alcippe', 'Brenton', 'Ingrid', 'Refilwe', 'Temperance', 'Pascal', 'Walter', 'Riko', 'Joceline', 'Myung', 'Parth', 'Zlatan', 'Aniketos', 'Hiko', 'Aubrey', 'Nathaniel', 'Yasu', 'Winter', 'Ottavia', 'Wolf', 'Swanhild', 'Yevgeniy', 'Roshan', 'Marnix', 'Efthalia', 'Moana', 'Heinrich', 'Broen', 'Odalis', 'Zora', 'Ionna');
-	charNamesAry2 = new Array('None', 'Nero', 'Charon', 'Cadfael', 'Iphigenia', 'Yun', 'Blanche', 'Lina', 'Senka', 'Quinton', 'Yong', 'Cillian', 'Sequoia', 'Belle', 'Diamanto', 'Conleth', 'Tsukiko', 'Nereida', 'Gilbert', 'Brutus', 'Qing', 'Daisuke', 'Aamina', 'Deror', 'Grigol', 'Bertram', 'Corinna', 'Elette', 'Khazo', 'Lyall', 'Everard', 'Eloise', 'Dmitriy', 'Alfhild', 'Farran', 'Vasil', 'Hazae', 'Khazak', 'Kasumi', 'Shell', 'Shell 2', 'Svarog', 'Ulrich', 'Nayeli', 'Zan Jia', 'Larien', 'Tyr', 'Shichirou', 'Iva', 'Saphira', 'Varfolomei', 'Miroslav', 'Aithne', 'Buenasdias', 'Echbert', 'Klytie', 'Hjalmar', 'Fleurette', 'Medino', 'Ceiva', 'Siofra', 'Ludolf', 'Xolani', 'Argyris', 'Jin Shui', 'Kong Sang', 'Vulgaris', 'Maximilian', 'Finley', 'Hallbjorn', 'Alcippe', 'Brenton', 'Ingrid', 'Refilwe', 'Temperance', 'Pascal', 'Walter', 'Riko', 'Joceline', 'Myung', 'Parth', 'Zlatan', 'Aniketos', 'Hiko', 'Aubrey', 'Nathaniel', 'Yasu', 'Winter', 'Ottavia', 'Wolf', 'Swanhild', 'Yevgeniy', 'Roshan', 'Marnix', 'Efthalia', 'Moanaa', 'Heinrich', 'Broen', 'Odalis', 'Zora', 'Ionna');
+	charNamesAry = new Array('None', 'Nero', 'Charon', 'Cadfael', 'Iphigenia', 'Yun', 'Blanche', 'Lina', 'Senka', 'Quinton', 'Yong', 'Cillian', 'Sequoia', 'Belle', 'Diamanto', 'Conleth', 'Tsukiko', 'Nereida', 'Gilbert', 'Brutus', 'Qing', 'Daisuke', 'Aamina', 'Deror', 'Grigol', 'Bertram', 'Corinna', 'Elette', 'Khazo', 'Lyall', 'Everard', 'Eloise', 'Dmitriy', 'Alfhild', 'Farran', 'Vasil', 'Hazae', 'Khazak', 'Kasumi', 'Shell', 'Shell 2', 'Svarog', 'Ulrich', 'Nayeli', 'Zan Jia', 'Larien', 'Tyr', 'Shichirou', 'Iva', 'Saphira', 'Varfolomei', 'Miroslav', 'Aithne', 'Buenasdias', 'Echbert', 'Klytie', 'Hjalmar', 'Fleurette', 'Medino', 'Ceiva', 'Siofra', 'Ludolf', 'Xolani', 'Argyris', 'Jin Shui', 'Kong Sang', 'Vulgaris', 'Maximilian', 'Finley', 'Hallbjorn', 'Alcippe', 'Brenton', 'Ingrid', 'Refilwe', 'Temperance', 'Pascal', 'Walter', 'Riko', 'Joceline', 'Myung', 'Parth', 'Zlatan', 'Aniketos', 'Hiko', 'Aubrey', 'Nathaniel', 'Yasu', 'Winter', 'Ottavia', 'Wolf', 'Swanhild', 'Yevgeniy', 'Roshan', 'Marnix', 'Efthalia', 'Moana', 'Heinrich', 'Broen', 'Odalis', 'Zora', 'Ionna', 'Iwatani', 'WBC 1146', 'Chaz', 'Andrews', 'Brando', 'Chika', 'Clyde', 'Fubuki', 'Kenobi', 'Arue');
+	charNamesAry2 = new Array('None', 'Nero', 'Charon', 'Cadfael', 'Iphigenia', 'Yun', 'Blanche', 'Lina', 'Senka', 'Quinton', 'Yong', 'Cillian', 'Sequoia', 'Belle', 'Diamanto', 'Conleth', 'Tsukiko', 'Nereida', 'Gilbert', 'Brutus', 'Qing', 'Daisuke', 'Aamina', 'Deror', 'Grigol', 'Bertram', 'Corinna', 'Elette', 'Khazo', 'Lyall', 'Everard', 'Eloise', 'Dmitriy', 'Alfhild', 'Farran', 'Vasil', 'Hazae', 'Khazak', 'Kasumi', 'Shell', 'Shell 2', 'Svarog', 'Ulrich', 'Nayeli', 'Zan Jia', 'Larien', 'Tyr', 'Shichirou', 'Iva', 'Saphira', 'Varfolomei', 'Miroslav', 'Aithne', 'Buenasdias', 'Echbert', 'Klytie', 'Hjalmar', 'Fleurette', 'Medino', 'Ceiva', 'Siofra', 'Ludolf', 'Xolani', 'Argyris', 'Jin Shui', 'Kong Sang', 'Vulgaris', 'Maximilian', 'Finley', 'Hallbjorn', 'Alcippe', 'Brenton', 'Ingrid', 'Refilwe', 'Temperance', 'Pascal', 'Walter', 'Riko', 'Joceline', 'Myung', 'Parth', 'Zlatan', 'Aniketos', 'Hiko', 'Aubrey', 'Nathaniel', 'Yasu', 'Winter', 'Ottavia', 'Wolf', 'Swanhild', 'Yevgeniy', 'Roshan', 'Marnix', 'Efthalia', 'Moanaa', 'Heinrich', 'Broen', 'Odalis', 'Zora', 'Ionna', 'Iwatani', 'WBC 1146', 'Chaz', 'Andrews', 'Brando', 'Chika', 'Clyde', 'Fubuki', 'Kenobi', 'Arue');
 }
 function initTeams() {
 	team1Ary = new Array(0, 0, 0);
@@ -17,6 +15,8 @@ infoSpotAry = new Array(null, null, null, null, null, null, null, null, null, nu
 //Array for holding the chars
 charsAry = new Array();
 //Variables
+MAX_CHAR = 2500;
+
 _root.numCharsAry = charNamesAry.length - 1;
 nameCounter = 1;
 charNum = 0;
@@ -47,6 +47,18 @@ charBox.addEventListener("change",cbListener);
 //RandomNumberFunction
 function getRandomBetween(lowInt, highInt) {
 	return (lowInt + Math.floor(Math.random() * (highInt - lowInt + 1)));
+}
+// highest killer
+function getHighestKiller () {
+	var temp = 0;
+	var tempName = "";
+	for (var i = 0; i < _root.charsAry.length; i++ ) {
+		if (_root.charsAry[i].Kills > temp) {
+			temp = _root.charsAry[i].Kills;
+			tempName = _root.charsAry[i].name;
+		}
+	}
+	return tempName;
 }
 //Spawning Functions
 function spawnChar(nameIn, posX, posY) {
@@ -172,6 +184,7 @@ function spawnChar(nameIn, posX, posY) {
 	if (nameIn == "Hunter") {
 		this["mc" + charNum].onEnterFrame = scoutAI;
 		this["mc" + charNum].targetChar = null;
+		this["mc" + charNum].targetCharName = getHighestKiller();
 	} else {
 
 		this["mc" + charNum].onEnterFrame = charAI;
@@ -199,6 +212,11 @@ function spawnChar(nameIn, posX, posY) {
 	//this["mc"+charNum].initChar();
 	//These are for AI purposes only
 	this["mc" + charNum].walkTimer = 0;
+	this["mc" + charNum].frozen = false;
+	this["mc" + charNum].damageAccu = 0;
+	this["mc" + charNum].attackAccu = 0;
+	
+	report("reportSpawn", charName, 0, 0);
 
 	//Add to array
 	_root.charsAry.push(this["mc" + charNum]);
@@ -231,6 +249,10 @@ function spawnChar(nameIn, posX, posY) {
 	}
 	name2 = charNamesAry[nameCounter];
 	nameDisplay = "Last: " + name1 + " Next: " + name2;
+	
+	if (charNum >= MAX_CHAR) {
+		_root.autoSpawn.gotoAndStop(1);
+	}
 }
 //Spawn PLAYER
 function spawnPlayer(charName) {
@@ -369,6 +391,9 @@ function spawnPlayer(charName) {
 	//this["mc"+charNum].initChar();
 	//These are for AI purposes only
 	this["mc" + charNum].walkTimer = 0;
+	this["mc" + charNum].frozen = false;
+	this["mc" + charNum].damageAccu = 0;
+	this["mc" + charNum].attackAccu = 0;
 
 	//Add to array
 	_root.charsAry.push(this["mc" + charNum]);
@@ -548,7 +573,7 @@ function charAI() {
 		if (this._y > 450) {
 			this._y = 0;
 			//Random X If Desert arena
-			if (_root.BG._currentframe == 2) {
+			if (_root.BG._currentframe == 2 || _root.BG._currentframe == 20) {
 				this._x = int(Math.random() * 699) + 2;
 			}
 			//Make sure s/he's not out of bounds               
@@ -575,14 +600,24 @@ function charAI() {
 					if (Bubbles <= fightChance) {
 						if (this.sightArea.hitTest(charsAry[q].bodyArea)) {
 							if (this.charAct != "Fighting") {
-								this.charAct = "Chase";
 								victim = charsAry[q];
+								if (this.bodyArea.hitTest(victim.bodyArea)) {
+									// too close
+									if (int(Math.random() * 10) < 5) {
+										this._xscale *= -1;
+									}
+									this.charAct = "Fleeing";
+									this.walkTimer = 40;
+								} else {
+									this.charAct = "Chase";
+								}
+								
 							}
 						} else if (this.atkArea.hitTest(charsAry[q].bodyArea)) {
 							this.charAct = "Fighting";
 							victim = charsAry[q];
 						} else if (this.sightArea2.hitTest(charsAry[q].bodyArea)) {
-							if (this.charAct != "Fighting") {
+							if (this.charAct != "Fighting" && this.charAct != "Fleeing") {
 								this._xscale *= -1;
 								//this.charAct = "Chase";
 							}
@@ -596,11 +631,11 @@ function charAI() {
 				}
 			}
 		}
-		if (this._currentframe > 2 && this.charAct != "Sleeping") {
+		if (this._currentframe > 2 && this.charAct != "Sleeping" && this.charAct != "Fleeing") {
 			this.charAct = "Fighting";
 		}
 		//DIE BITCHES                                                                                                                                                                       
-		if (this.charAct == "Fighting") {
+		if (this.charAct == "Fighting" && this.frozen == false) {
 			this.play();
 		}
 		//THE CHASE IS ON!                                                                                                                                                                                    
@@ -798,10 +833,6 @@ function printStats(target) {
 		_root["status" + Yngwie].EXPBar._xscale = _root.expPercent(target.lvl, target.experience);
 	}
 	_root.charNum2 = _root.charsAry.length;
-	//_root.bongoz = "";
-	//for (var q = 0; q<=_root.charsAry.length; q++) {
-	//_root.bongoz += _root.charsAry[q].name + " ";
-	//}
 	if (target.HP == 0) {
 		_root["status" + Yngwie].Cover.gotoAndPlay("Dead");
 	}
@@ -836,6 +867,7 @@ function suicide(player, damage) {
 }
 //A Character's Attack
 function attack(player, damage, type) {
+	player.attackAccu++;
 	//Check enemies attacking
 	hitDiv = 0;
 	if (type != "Splash" && type != "Single") {
@@ -987,6 +1019,13 @@ function attack(player, damage, type) {
 				} else if (type == "Vital") {
 					wooo = Math.round(victim.HP / 15);
 					damage2 = damage + wooo - 100;
+				} else if (type == "Judo") {
+					wooo = Math.round(((victim.aDEF * 2.5) / 100) + 1);
+					damage2 = damage * wooo;
+				} else if (type == "HighGround") {
+					wooo = Math.round((450 - player._y) / 2);
+					trace('playerY ' + player._y);
+					damage2 = damage + wooo;
 				} else if (type == "Pierce") {
 					wooo = victim.VIT * 2;
 					damage2 = damage + wooo;
@@ -1096,6 +1135,8 @@ function attack(player, damage, type) {
 					damage2 = 1;
 				}
 				victim.HP -= Math.round(damage2);
+				player.damageAccu += Math.round(damage2);
+				trace("player damage accu add " + damage2 + " now at " + player.damageAccu);
 				//Pushing
 				if (type == "Push" || type == "Push2" || type == "Scatter") {
 					amount = 80;
@@ -1242,6 +1283,7 @@ function attack(player, damage, type) {
 }
 //ranged
 function attack2(player, damage, type) {
+	player.attackAccu++;
 	//Check enemies attacking
 	hitDiv = 0;
 	for (var q = 0; q <= _root.charsAry.length; q++) {
@@ -1283,7 +1325,7 @@ function attack2(player, damage, type) {
 				if (Conv < 5) {
 					Conv = 5;
 				}
-				if (type == "Guided" || type == "Trigger" || victim.Buff == "Bide") {
+				if (type == "Guided" || type == "Trigger" || type == "Trigger2" || victim.Buff == "Bide") {
 					Conv = 100000;
 				}
 				if (player.caster.Buff == "Targeting" || player.caster.disposition == "Hero" || player.caster.disposition == "Daemon") {
@@ -1296,6 +1338,9 @@ function attack2(player, damage, type) {
 					player.atkArea.play();
 					player.stop();
 				}
+				if (type =="Trigger2") {
+					player.atkArea.play();
+				}
 				Bubbles = int(Math.random() * 100) + 1;
 				//If miss
 				if (Bubbles > Conv) {
@@ -1307,7 +1352,9 @@ function attack2(player, damage, type) {
 					if (damageNum > 20) {
 						damageNum = 1;
 					}
-					player.removeMovieClip();
+					if (type != "Trigger2") {
+						player.removeMovieClip();
+					}
 					break;
 				}
 				//                                                                                                                                                                             
@@ -1337,7 +1384,7 @@ function attack2(player, damage, type) {
 					subtracting = damage * (niggs / 100);
 					damage -= Math.round(subtracting);
 				}
-				if (type == "Blunt" || type == "Push") {
+				if (type == "Blunt" || type == "Push" || type == "Trigger2") {
 					perDef = 1 - (victim.VIT / 1000);
 					bloof = Math.round(damage * perDef);
 					damage2 = bloof - victim.VIT;
@@ -1352,6 +1399,12 @@ function attack2(player, damage, type) {
 				} else if (type == "Terror") {
 					victim.Buff = "Terror";
 					victim.Emote.gotoAndStop("Terror");
+					damage2 = damage;
+				} else if (type == "Enslave") {
+					if (victim.Buff != "Locked") {
+						victim.Buff = "Bound";
+						victim.Emote.gotoAndStop("Bound");
+					}
 					damage2 = damage;
 				} else if (type == "Poison") {
 					victim.Buff = "Poison";
@@ -1378,6 +1431,7 @@ function attack2(player, damage, type) {
 					damage2 = 100;
 				}
 				victim.HP -= damage2;
+				player.caster.damageAccu += damage2;
 				//Biding 
 				if (victim.Buff == "Bide") {
 					victim.combo += damage2;
@@ -1419,13 +1473,7 @@ function attack2(player, damage, type) {
 				} else {
 					_root.playerWalk(victim,1,pushAmount);
 					//victim._x += amount;
-				}
-				//if (victim._x < player.caster._x) {
-				//victim._x -= pushAmount;
-				//} else {
-				//victim._x += pushAmount;
-				//}
-				//damageFinal =                                
+				}                            
 				//damage display numbers
 				_root.attachMovie("numberfly","number" + damageNum,damageNum + 10000);
 				_root["number" + damageNum]._x = victim._x;
@@ -1480,7 +1528,7 @@ function attack2(player, damage, type) {
 						victim._xscale *= -1;
 					}
 				}
-				if (type != "Trigger" && type != "Trap" && type != "Trap2") {
+				if (type != "Trigger" && type != "Trap" && type != "Trap2" && type != "Trigger2" && type != "Enslave") {
 					player.removeMovieClip();
 				}
 			}
@@ -1502,8 +1550,10 @@ function buff(player, healAmount, type) {
 					bing = bloop + healAmount;
 					if (bing >= juun) {
 						charsAry[q].HP = juun;
+						report("reportHealing", charsAry[q].name, 0, juun);
 					} else {
 						charsAry[q].HP += healAmount;
+						report("reportHealing", charsAry[q].name, 0, healAmount);
 					}
 					_root.attachMovie("numberfly3","number" + damageNum,damageNum + 10000);
 					_root["number" + damageNum]._x = charsAry[q]._x;
@@ -1588,8 +1638,6 @@ function awardEXP(player, amount) {
 		}
 
 	}
-	//trace(player.experience);                                
-	//trace(" " + _root.getEXPreq(player.lvl + 1));
 }
 function charDieF(killer) {
 	//reward with HP if he's not cursed
@@ -1645,6 +1693,20 @@ function charDieF(killer) {
 			suicide(killer,200);
 		}
 	}
+	
+	// Reporting functions
+	trace(killer.damageAccu + killer.name);
+	if (this == killer) {
+		report("reportTrapDeath", this.name, this.Kills, this.damageAccu, killer.name);
+	} else {
+		report("reportKill", killer.name, killer.Kills, killer.damageAccu);
+		report("reportDeath", this.name, this.Kills, this.damageAccu, killer.name);
+		killer.damageAccu = 0;
+	}
+	report("reportAttacks", killer.name, 0, killer.attackAccu);
+	report("reportAttacks", this.name, 0, this.attackAccu);
+	killer.attackAccu = 0;
+	
 	//If this is the player it means no more player's on        
 	if (this.dispositon == "Player") {
 		_root.playerSpawned = false;
@@ -1665,6 +1727,11 @@ function levelUpF() {
 	if (_root.lvloption == "Kill") {
 		hpaddamt2 = _root.hpaddamt;
 		stataddamt2 = _root.stataddamt;
+		if (this.Kills > 70) {
+			modifier = 1.5;
+			hpaddamt2 = Math.round(hpaddamt2 / modifier);
+			stataddamt2 = Math.round(stataddamt2 / modifier);
+		}
 	} else {
 		hpaddamt2 = Math.round((_root.hpaddamt / 2) * (this.lvl * 1.1));
 		stataddamt2 = Math.round(_root.stataddamt + (this.lvl * 1.2));
@@ -1759,6 +1826,9 @@ function respawnChars() {
 
 function checkTeams(guy1, guy2) {
 	myTeam = false;
+	if (guy1.name == "Hunter") {
+		return false;
+	}
 	if (guy1 == guy2) {
 		return true;
 	}
@@ -1887,9 +1957,11 @@ function scoutAI() {
 						} else if (this.sightArea2.hitTest(charsAry[q].bodyArea)) {
 							if (this.charAct != "Fighting") {
 								this._xscale *= -1;
+								// this.textBubble._xscale *= -1;
 								//this.charAct = "Chase";
 							}
 						}
+						this.textBubble._xscale = this._xscale;
 					} else {
 						this.charAct = "Fleeing";
 						this.Emote.gotoAndStop("Fleeing");
@@ -1914,13 +1986,16 @@ function scoutAI() {
 			if (_root.wandering._currentframe == 1) {
 				if (victim._x < this._x) {
 					this._xscale = 100;
+					// this.textBubble._xscale = 100;
 					_root.playerWalk(this,2,1.5);
 					//this._x -= this.walkSpeed * 1.3;
 				} else if (victim._x > this._x) {
 					this._xscale = -100;
+					// this.textBubble._xscale = -100;
 					_root.playerWalk(this,1,1.5);
 					//this._x += this.walkSpeed * 1.3;
 				}
+				this.textBubble._xscale = this._xscale;
 			}
 		}
 		//RUNN TOO THEE HIIILLLSS!                                                                                                                                                                         
@@ -1949,10 +2024,13 @@ function scoutAI() {
 					if (this.HP < 1800) {
 						this.HP += 20;
 					}
+					
 					this.flip = getRandomBetween(1, 2);
 					if (this.flip == 1) {
 						this._xscale *= -1;
+						// this.textBubble._xscale *= -1;
 					}
+					this.textBubble._xscale = this._xscale;
 					this.walkTimer = getRandomBetween(7, 70);
 					if (player.Buff == "Terror") {
 						Bubbles = int(Math.random() * 10) + 1;
@@ -2028,4 +2106,64 @@ function checkScout(self, inChar) {
 		}
 	}
 	return isTarget;
+}
+
+function trapAttack (trap, baseDamage, bonusType) {
+	for (var q = 0; q<=_root.charsAry.length; q++) {
+		if (trap.atkArea.hitTest(_root.charsAry[q].bodyArea) || bonusType == "AllHit") {
+			if (_root.charsAry[q].Buff == "Defender" || _root.charsAry[q].Buff == "Full") {
+				continue;
+			}
+			bonus = 0;
+			if (bonusType == "Vit") {
+				bonus = _root.charsAry[q].VIT;
+			} else if (bonusType == "Kills") {
+				bonus = (_root.charsAry[q].Kills * 100);
+			} else if (bonusType == "VitKills") {
+				bonus = _root.charsAry[q].VIT + (_root.charsAry[q].Kills * 100);
+			} else if (bonusType == "HalfHP") {
+				bonus = Math.round(_root.charsAry[q].highestHP / 2);
+			}
+			damage = baseDamage + bonus;
+			niggs = _root.charsAry[q].aDEF;
+			subtracting = Math.abs(damage * (niggs / 100));
+			damage2 = Math.max(1, damage - Math.round(subtracting));
+			trace("damage:"+damage+"niggs:"+niggs+"subtracting:"+subtracting+"damage2:"+damage2);
+			_root.charsAry[q].HP -= damage2;
+			_root.charsAry[q].Flincher.play();
+	
+			_root.attachMovie("numberfly2","number"+_root.damageNum,_root.damageNum+3000);
+			_root["number"+_root.damageNum]._x = _root.charsAry[q]._x;
+			_root["number"+_root.damageNum]._y = _root.charsAry[q]._y-10;
+			_root["number"+_root.damageNum].var123 = damage2;
+			_root.damageNum++;
+			if (_root.damageNum>20) {
+				_root.damageNum = 1;
+			}
+			
+			if (_root.charsAry[q].HP <= 0) {
+				if (_root.charsAry[q].Buff == "Protection") {
+					_root.buff(_root.charsAry[q],Math.round(_root.charsAry[q].highestHP / 2),"HealSelf");
+					_root.charsAry[q].Buff = "None";
+				} else {
+					_root.charsAry[q].HP = 0;
+					_root.charsAry[q].charDie(_root.charsAry[q]);
+				}
+			}
+		}
+	}
+}
+
+function report (action, dataTag, data1, data2, data3) {
+	if (_root.reporting._currentframe == 1) {
+		return;
+	}
+	
+	url = "http://localhost:4001/report?";
+	url += "action=" + action + "&";
+	url += "dataTag=" + dataTag + "&";
+	url += "data1=" + data1 + "&";
+	url += "data2=" + data2+ "&";
+	url += "data3=" + data3;
+	loadVariables(url, "");
 }
